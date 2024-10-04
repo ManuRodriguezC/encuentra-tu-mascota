@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.image {
-  
+.custom-brightness {
+    filter: brightness(30%); /* Ajusta este valor según sea necesario */
 }
