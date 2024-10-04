@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.image {
-  
-}
+/* .image {
+  background-image: url('/images/HeaderIMG.jpg');
+  height: 344px;
+  width: 100%;
+  filter: brightness(0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+} */
