@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+main{
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
+
+}
+
+.error-page {
+
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height:0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:#245269;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:#F8F9FA;
+        text-shadow: 0 0 10px #1F485C,
+        0 0 20px #F39C12,
+        0 0 40px #F39C12,
+        0 0 80px #F39C12,
+        0 0 160px #F39C12;
+    }
+}
+
+
+.spanB {
+    margin: 0 4px;
+    box-shadow: 0 0 0 10px #f39d1286,
+                0 0 50px #F39C12,
+                0 0 100px #F39C12;
+    animation: spanAnimateFromTop 15s linear infinite; /* Aplica la animación solo desde arriba */
+}
+
+/* Variación de la duración de la animación */
+.spanB:nth-child(1n) {
+    animation-duration: 15s;
+}
+
+.spanB:nth-child(2n) {
+    animation-duration: 22s;
+}
+
+.spanB:nth-child(3n) {
+    animation-duration: 12s;
+}
+
+.spanB:nth-child(4n) {
+    animation-duration: 8s;
+}
+
+.spanB:nth-child(5n) {
+    animation-duration: 16s;
+}
+
+.spanB:nth-child(6n) {
+    animation-duration: 28s;
+}
+
+.spanB:nth-child(7n) {
+    animation-duration: 34s;
+}
+
+.spanB:nth-child(8n) {
+    animation-duration: 31s;
+}
+
+.spanB:nth-child(9n) {
+    animation-duration: 19s;
+}
+
+.spanB:nth-child(10n) {
+    animation-duration: 27s;
+}
+
+
+
+
+@keyframes spanAnimateFromTop {
+    0% {
+        transform: translateY(-100vh) scale(0);
+    }
+    100% {
+        transform: translateY(6vh) scale(0.1);
+    }
+}
+
+
+
+
+
+
